@@ -7,7 +7,7 @@ MAD Tutorial using programs Gibbs3 and MADPlotter3
 **by: Frank S. Spear & Adrian Castro**
 
 <!--Replace file path-->
-![img](/Users/jannitta/Desktop/gibbs.png "Gibbs")
+![img](gibbs.png "Gibbs")
 
 ###Tutorial on making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
 
@@ -27,9 +27,10 @@ This tutorial provides step-by-step instructions for the calculation of a Minera
 <!--Replace later? -->
 Note that user inputs are shown in BOLD. Program output is shown in Courier font.
 
-Handy hint: The program generates fairly large output files – 3 for each MAD. You can delete the “.log” file and the file with no extension. Keep the “.All” file – it contains the results you want.
-Also, you need a good text editor to view these. On a Macintosh, I use BBEdit. It’s free and handles really large files just fine. You can get it from BareBones Software at:
-http://www.barebones.com/
+Handy hint: The program generates fairly large output files – 3 for each MAD. You can delete the `.log` file and the file with no extension. Keep the `.All` file – it contains the results you want.
+
+You also need a good text editor to view these. On a Macintosh, BBEdit or Atom work well. You can get BBEdit from [BareBones Software](http://www.barebones.com/) and Atom from [Atom.io](https://atom.io/).
+
 
 -----
 
@@ -128,7 +129,7 @@ A drop-down box will appear with all of the bulk rock analyses contained in the 
 This is the bulk rock analyses file selected when the program started. It is in ASCII and can be edited by the user to add bulk rock analyses. See notes in the Gibbs Reference Manual for more details on the format of this file. 
 
 <!--Replace file path-->
-![img](/Users/jannitta/Desktop/dropdown.png "dropdown")
+![img](dropdown.png "dropdown")
 
 **Choose:** `“MnNCKFMASH MAD1 Tutorial exercise”`
 
@@ -166,7 +167,7 @@ Gibbs will display the following options:
 We will create a MAD from 400-800 ˚C, 2-10 kb in steps of 2 degrees and 100 bars. Adjust the values accordingly:
 
 <!--Replace file path-->
-![img](/Users/jannitta/Desktop/pt-grid.png "P-T grid")
+![img](pt-grid.png "P-T grid")
 
 ***A note on PT grids:*** You can run the program with increasing or decreasing T and increasing or decreasing P. Just be sure that the increments (T or P) are negative if you run with decreasing values. Why would you do this? We’ve found that for some bulk rock compositions it is difficult to get an initial solution at low T and/or low P. Starting at high T or P and going backwards sometimes solves this.
 
