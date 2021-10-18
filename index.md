@@ -11,7 +11,7 @@ MAD Tutorial using programs Gibbs3 and MADPlotter3
 
 ### Tutorial on making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
 
-#### Updated: July 2021
+#### Updated: October 2021
 
 **Frank S. Spear & Adrian E. Castro**
 
@@ -48,6 +48,20 @@ On startup, `Gibbs` displays a list of available thermodynamic datasets. For thi
 	Pick thermodynamic data file to use in this session
 
 **Choose:** `1  SPaC18_Thermo.dat`
+
+Next, `Gibbs` will display a list of bulk composition files to choose from. 
+
+	1 BR_Coticule.txt                 
+	2 BR_BulkRockAnalyses.txt         
+	3 BR_CVS_BulkRockAnalyses.txt     
+	4 BR_TE_BulkRockAnalyses.txt      
+	5 BR_EBC_Project_BulkRock.txt     
+	6 BR_Cyclades.txt                 
+	7 BR_Ios.txt                      
+	8 BR_Syros.txt                    
+	Pick the bulk composition file you wish to use
+	
+**Choose:** `2 BR_BulkRockAnalyses.txt`
 
 ***The Main menu***
 
@@ -180,6 +194,7 @@ Specifying a P-T grid will return you to the main MAD menu.
 Input the initial T and P for your grid to find a starting assemblage for the program:
 
 	Specify T and P for calculations
+	
 **Input:** `400, 2000`
 
 The program then lists out the phases in the MIF you chose above:
@@ -217,6 +232,8 @@ Quartz (1) + Water (2) + Kspar (6) + Plagioclase (7) + Muscovite (8) + Biotite (
 	0 (zero ends the list)`
 	
 The program should return the output for the stable assemblage at this P&T (if it doesn’t return the stable assemblage, try a different starting assemblage).
+
+**Choose:** `1 = Continue w/o output`
 
 	 =========Initial setup done=============================
 	 Stable assemblage:
