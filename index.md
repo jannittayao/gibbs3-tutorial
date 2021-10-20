@@ -220,7 +220,7 @@ The program then lists out the phases in the MIF you chose above:
 	Indices of stable asm: 1 2 6 7 8 10 
 	
 Make a best guess as to the stable mineral assemblage at the starting P and T (400 ˚C, 2000 bars). Since we’ve run this problem before, we know that the answer is
-Quartz (1) + Water (2) + Kspar (6) + Plagioclase (7) + Muscovite (8) + Biotite (9) + Chlorite (10)
+Quartz (1) + Water (2) + Kspar (6) + Plagioclase (7) + Muscovite (8) + Chlorite (10)
 
 ***Input:***
 	`1 
