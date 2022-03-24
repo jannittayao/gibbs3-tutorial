@@ -195,7 +195,9 @@ Input the initial T and P for your grid to find a starting assemblage for the pr
 
 	Specify T and P for calculations
 	
-**Input:** `400, 2000`
+**Input:** `400 2000` 
+
+*Make sure that your T and P values are separated by a space!*
 
 The program then lists out the phases in the MIF you chose above:
 
@@ -223,14 +225,17 @@ Make a best guess as to the stable mineral assemblage at the starting P and T (4
 Quartz (1) + Water (2) + Kspar (6) + Plagioclase (7) + Muscovite (8) + Chlorite (10)
 
 ***Input:***
-	`1 
+
+	1 
 	2
 	6
 	7
 	8
 	10
-	0 (zero ends the list)`
+	0
 	
+0 ends the list! 
+
 The program should return the output for the stable assemblage at this P&T (if it doesn’t return the stable assemblage, try a different starting assemblage).
 
 **Choose:** `1 = Continue w/o output`
@@ -325,13 +330,14 @@ You will now see the list of phases in the MIF again. Here (as before when we us
 Note that since we saved the MIF after doing option 41 the program lists the stable phases for this P&T: 1, 2, 6, 7, 8, 10 so we don’t have to remember what they are. 
 
 **Input:**
-`1
-2
-6
-7
-8
-10
-0 (to end the list)`
+
+	1
+	2
+	6
+	7
+	8
+	10
+	0 (to end the list)
 
 The program should now start calculating. A small window will display the T and P of calculations and the output window will show the initial T and P (but not every T and P) as the calculations proceed. It should take only a couple of minutes for the problem to complete.
 
@@ -378,13 +384,14 @@ Provide a file name: `MAD1b tutorial`
 Give the indices of the stable assemblage (as before):
 
 **Input:**
-`1
-2
-6
-7
-8
-10
-0`
+
+	1
+	2
+	6
+	7
+	8
+	10
+	0
 
 Note that if garnet had been part of our stable assemblage at the initial P&T, we should leave it out of this list of initially stable phases.
 
@@ -439,13 +446,14 @@ There are some metamorphic reactions that consume H<sub>2</sub>O and this can re
 Give the indices of the stable assemblage (as before).
 
 **Input:**
-`1
-2
-6
-7
-8
-10
-0`
+
+	1
+	2
+	6
+	7
+	8
+	10
+	0
 
 The program should now calculate. 
 
@@ -577,13 +585,14 @@ Provide a file name: `MAD1d tutorial`
 Give the indices of the stable assemblage (as before)
 
 **Input:**
-`1
-2
-6
-7
-8
-10
-0`
+
+	1
+	2
+	6
+	7
+	8
+	10
+	0
 
 The program should now calculate. You’ll notice that it runs a bit slower than before, but not that much slower. It’s doing more calculations and we added an additional 100 degrees to the grid.
 
