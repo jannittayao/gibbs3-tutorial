@@ -11,7 +11,7 @@ MAD Tutorial using programs Gibbs3 and MADPlotter3
 
 ### Tutorial on making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
 
-#### Updated: October 2021
+#### Updated: March 2022
 
 **Frank S. Spear & Adrian E. Castro**
 
