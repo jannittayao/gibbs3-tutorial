@@ -4,7 +4,7 @@
 MAD Tutorial using programs Gibbs3 and MADPlotter3
 -----
 
-**by: Frank S. Spear & Adrian Castro**
+**by: Frank S. Spear, Adrian Castro, and Jannitta Yao**
 
 <!--Replace file path-->
 ![img](gibbs.png "Gibbs")
