@@ -12,7 +12,7 @@ MAD Tutorial using programs Gibbs3 and MADPlotter3
 <!--Replace file path-->
 ![img](/Users/jannitta/Desktop/gibbs.png "Gibbs")
 
-###Tutorial on making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
+###Tutorial for making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
 
 #### Updated: June 2022
 
