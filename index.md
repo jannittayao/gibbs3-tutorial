@@ -1,23 +1,27 @@
 
 # Program Gibbs3
 
-MAD Tutorial using programs Gibbs3 and MADPlotter3
+MAD Tutorial using programs Gibbs3
 -----
 
-**by: Frank S. Spear, Adrian Castro, and Jannitta Yao**
+**by: Frank S. Spear<sup>1</sup>, Adrian E. Castro<sup>2</sup>, and Jannitta Yao<sup>2,3</sup>**  
+<sup>1</sup> Department of Earth and Environmental Sciences, Rensselaer Polytechnic Institute  
+<sup>2</sup> Department of Geosciences, Wellesley College  
+<sup>3</sup> Department of Earth Sciences, Dartmouth College
 
 <!--Replace file path-->
 ![img](gibbs.png "Gibbs")
 
-### Tutorial on making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
+###Tutorial for making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
 
-#### Updated: March 2022
+#### Updated: June 2022
 
-**Frank S. Spear & Adrian E. Castro**
+Typos, updated contact info, links to latest paper, etc.
 
-**Department of Geology, Rensselaer Polytechnic Institute, Troy, New York 12180**
+Contact <spearf@rpi.edu> for questions about the software. 
 
-<spearf@rpi.edu>
+Contact <ac114@wellesley.edu> or <jyao@wellesley.edu> for comments on the tutorial.
+
 
 
 ### _Introduction_
@@ -25,11 +29,17 @@ MAD Tutorial using programs Gibbs3 and MADPlotter3
 This tutorial provides step-by-step instructions for the calculation of a Mineral Assemblage Diagram (MAD), also known as a pseudosection. General considerations about Program Gibbs3 are discussed in the Gibbs Reference Manual.
 
 <!--Replace later? -->
-Note that user inputs are shown in BOLD. Program output is shown in Courier font.
+Note that user inputs are shown in **BOLD**. Program output is shown in `Courier font`.
 
 Handy hint: The program generates fairly large output files – 3 for each MAD. You can delete the `.log` file and the file with no extension. Keep the `.All` file – it contains the results you want.
 
 You also need a good text editor to view these. On a Macintosh, BBEdit or Atom work well. You can get BBEdit from [BareBones Software](http://www.barebones.com/) and Atom from [Atom.io](https://atom.io/).
+
+Please see Appendix 4 in Spear and Wolde (2022) in _Contributions to Mineralogy and Petrology_ for details on the theoretical approach the program employs. 
+
+The programs and documentation are available for download in both Macintosh and Windows versions at these links:
+
+[Macintosh OS](https://www.dropbox.com/sh/7g9svu1xn7766w6/AAANegGa75z7q35MgPeQAvKJa?dl=0) || [Windows](https://www.dropbox.com/sh/6gq224dlmjts8cs/AACePVntrhxo_PS1_UZOCj4ha?dl=0)
 
 
 -----
@@ -359,7 +369,7 @@ Gibbs 3 generates 3 output files for every MAD run. The files are:
 
 3. `<file name>.All`: This is the file you want. The file can get quite large, so you need a good text editor to examine in (I recommend BBEDIT on the Macintosh).
 
-We’re done. See the MADPlotter3 tutorial for plotting the MAD.
+We’re done. See the [MADPlotter3 tutorial](https://jannittayao.github.io/madplotter3-tutorial/) for plotting the MAD.
 
 -----
 
@@ -397,7 +407,7 @@ Note that if garnet had been part of our stable assemblage at the initial P&T, w
 
 The program should now calculate. 
 
-Go to the MADPlotter3 tutorial for instructions on viewing and plotting your results.
+Go to the [MADPlotter3 tutorial](https://jannittayao.github.io/madplotter3-tutorial/) for instructions on viewing and plotting your results.
 
 -----
 
@@ -457,7 +467,7 @@ Give the indices of the stable assemblage (as before).
 
 The program should now calculate. 
 
-Go to the MADPlotter3 tutorial for instructions on viewing and plotting your results.
+Go to the [MADPlotter3 tutorial](https://jannittayao.github.io/madplotter3-tutorial/) for instructions on viewing and plotting your results.
 
 -----
 
@@ -596,4 +606,4 @@ Give the indices of the stable assemblage (as before)
 
 The program should now calculate. You’ll notice that it runs a bit slower than before, but not that much slower. It’s doing more calculations and we added an additional 100 degrees to the grid.
 
-Go to the MADPlotter3 tutorial for instructions on viewing and plotting your results.
+Go to the [MADPlotter3 tutorial](https://jannittayao.github.io/madplotter3-tutorial/) for instructions on viewing and plotting your results.
