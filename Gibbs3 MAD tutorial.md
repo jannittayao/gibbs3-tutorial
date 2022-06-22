@@ -4,20 +4,23 @@
 MAD Tutorial using programs Gibbs3 and MADPlotter3
 -----
 
-**by: Frank S. Spear & Adrian Castro**
+**by: Frank S. Spear^1, Adrian E. Castro^2, and Jannitta Yao^2,3**
+^1 Department of Earth and Environmental Sciences, Rensselaer Polytechnic Institute
+^2 Department of Geosciences, Wellesley College
+^3 Department of Earth Sciences, Dartmouth College
 
 <!--Replace file path-->
 ![img](/Users/jannitta/Desktop/gibbs.png "Gibbs")
 
-###Tutorial on making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
+###Tutorial for making MADs (aka Mineral Assemblage Diagrams or Pseudosections)
 
-#### Updated: July 2021
+#### Updated: June 2022
 
-**Frank S. Spear & Adrian E. Castro**
+Typos, updated contact info, links to latest paper, etc.
 
-**Department of Geology, Rensselaer Polytechnic Institute, Troy, New York 12180**
+Contact <spearf@rpi.edu> for questions about the software. 
 
-<spearf@rpi.edu>
+Contact <ac114@wellesley.edu> or <jyao@wellesley.edu> for comments on the tutorial.
 
 
 ### _Introduction_
@@ -30,6 +33,14 @@ Note that user inputs are shown in BOLD. Program output is shown in Courier font
 Handy hint: The program generates fairly large output files – 3 for each MAD. You can delete the “.log” file and the file with no extension. Keep the “.All” file – it contains the results you want.
 Also, you need a good text editor to view these. On a Macintosh, I use BBEdit. It’s free and handles really large files just fine. You can get it from BareBones Software at:
 http://www.barebones.com/
+
+Please see Appendix 4 in Spear and Wolde (2022) in _Contributions to Mineralogy and Petrology_ for details on the theoretical approach the program employs. 
+
+The programs and documentation are available for download in both Macintosh and Windows versions at these links:
+
+Macintosh OS: https://www.dropbox.com/sh/7g9svu1xn7766w6/AAANegGa75z7q35MgPeQAvKJa?dl=0
+
+Windows: https://www.dropbox.com/sh/6gq224dlmjts8cs/AACePVntrhxo_PS1_UZOCj4ha?dl=0
 
 -----
 
