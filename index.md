@@ -39,7 +39,7 @@ Please see Appendix 4 in Spear and Wolde (2022) in _Contributions to Mineralogy 
 
 The programs and documentation are available for download in both Macintosh and Windows versions at these links:
 
-[Macintosh OS](https://www.dropbox.com/sh/7g9svu1xn7766w6/AAANegGa75z7q35MgPeQAvKJa?dl=0) || [Windows](https://www.dropbox.com/sh/6gq224dlmjts8cs/AACePVntrhxo_PS1_UZOCj4ha?dl=0)
+[Macintosh OS](https://www.dropbox.com/sh/7g9svu1xn7766w6/AAANegGa75z7q35MgPeQAvKJa?dl=0) | [Windows](https://www.dropbox.com/sh/6gq224dlmjts8cs/AACePVntrhxo_PS1_UZOCj4ha?dl=0)
 
 
 -----
